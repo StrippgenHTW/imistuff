@@ -1,0 +1,101 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object_7"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Paris_C.obj.cleaner.materialmerger.gles"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Sketchfab_model"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Object_5",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "COLOR_0" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 322681,
+            "max" : [
+                0.3523634374141693,
+                0.6833904981613159,
+                0.2329375147819519
+            ],
+            "min" : [
+                -0.23804888129234314,
+                -0.50539231300354,
+                -0.35624322295188904
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5123,
+            "count" : 322681,
+            "normalized" : true,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5125,
+            "count" : 1400133,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 3872172,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2581448,
+            "byteOffset" : 3872172
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5600532,
+            "byteOffset" : 6453620
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 12054152,
+            "uri" : "parisDS.bin"
+        }
+    ]
+}
